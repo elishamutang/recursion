@@ -7,7 +7,7 @@ function fibs(x) {
     let fibSeq = [0, 1]
 
     if (x === 1) {
-        return [fibSeq[0]]
+        return [0]
     } else if (x === 0) {
         return []
     }
@@ -20,20 +20,20 @@ function fibs(x) {
     return fibSeq
 }
 
-// console.log(fibs(2))
+// console.log(fibs(3))
 
 // Using recursion
 function fibsRec(x) {
-    if (x === 0 || x === 1) {
-        return 0
+    if (x === 1) {
+        return [0]
     } else if (x === 2) {
-        return 1
+        return [0, 1]
     } else {
-        // nth fib num
-        let fibNum = fibsRec(x - 1) + fibsRec(x - 2)
+        let fibNum = fibsRec(x - 1)
 
+        fibNum.push(fibNum[x - 2] + fibNum[x - 3])
         return fibNum
     }
 }
 
-console.log(fibsRec(5))
+console.log(fibsRec(8))
