@@ -1,6 +1,6 @@
 # Recursion
 
-![recursion diagram](<asset/Merge-Sort-Algorithm-(1).png>)
+![recursion diagram](<https://raw.githubusercontent.com/elishamutang/recursion/main/asset/Merge-Sort-Algorithm-(1).png>)
 
 ## Contents
 
