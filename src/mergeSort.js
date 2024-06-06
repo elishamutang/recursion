@@ -1,4 +1,4 @@
-function mergeSort(arr) {
+export default function mergeSort(arr) {
     let start = 0
     let end = arr.length - 1
 
