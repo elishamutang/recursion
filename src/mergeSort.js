@@ -46,16 +46,8 @@ export default function mergeSort(arr) {
     }
 }
 
-const arrOne = [3, 2, 1, 13, 8, 5, 0, 1]
-const arrTwo = [105, 79, 100, 110]
-const arrThree = [8, 9, 12, 11, 42, 59, 56, 22, 34, 69]
+// const randomArr = () => {
+//     return Array.from({ length: 5 }, () => Math.floor(Math.random() * 100))
+// }
 
-// console.log(mergeSort(arrOne))
-// console.log(mergeSort(arrTwo))
-// console.log(mergeSort(arrThree))
-
-const randomArr = () => {
-    return Array.from({ length: 5 }, () => Math.floor(Math.random() * 100))
-}
-
-console.log(mergeSort(randomArr()))
+// console.log(mergeSort(randomArr()))
