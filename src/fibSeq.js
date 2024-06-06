@@ -20,7 +20,7 @@ function fibs(x) {
     return fibSeq
 }
 
-// console.log(fibs(3))
+console.log(fibs(8))
 
 // Using recursion
 function fibsRec(x) {
